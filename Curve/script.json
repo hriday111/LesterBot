@@ -1,0 +1,107 @@
+{
+    "facebook": {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "generic",
+          "elements": [
+            {
+              "title": "🎁 Bonus za rejestrację",
+              "subtitle": "🔹 10€ bonus + 50€ za polecenie\n🔹 +20€ extra od nas po otrzymaniu bonusu!",
+              "image_url": "https://example.com/bonus.jpg",
+              "buttons": [
+                {
+                  "type": "web_url",
+                  "title": "📲 Zarejestruj się",
+                  "url": "https://www.curve.com/join#NB6OXPYN"
+                }
+              ]
+            },
+            {
+              "title": "✅ Wymagania",
+              "subtitle": "🔹 Rejestracja z linku\n🔹 Weryfikacja KYC\n🔹 Zamówienie karty\n🔹 3 transakcje min. 5€ każda",
+              "image_url": "https://example.com/requirements.jpg"
+            },
+            {
+              "title": "📝 Krok 1: Rejestracja",
+              "subtitle": "📲 Pobierz aplikację i rozpocznij rejestrację.",
+              "image_url": "https://example.com/register.jpg",
+              "buttons": [
+                {
+                  "type": "postback",
+                  "title": "✅ Gotowe!",
+                  "payload": "STEP_1_DONE"
+                }
+              ]
+            },
+            {
+              "title": "📍 Krok 2: Podaj adres",
+              "subtitle": "🏡 Wpisz swój adres zamieszkania i wybierz listy.",
+              "image_url": "https://example.com/address.jpg",
+              "buttons": [
+                {
+                  "type": "postback",
+                  "title": "✅ Zrobione!",
+                  "payload": "STEP_2_DONE"
+                }
+              ]
+            },
+            {
+              "title": "💳 Krok 3: Dodaj kartę",
+              "subtitle": "💰 Dodaj swoją kartę płatniczą do portfela.",
+              "image_url": "https://example.com/add_card.jpg",
+              "buttons": [
+                {
+                  "type": "postback",
+                  "title": "✅ Gotowe!",
+                  "payload": "STEP_3_DONE"
+                }
+              ]
+            },
+            {
+              "title": "🚀 Krok 4: Zamów darmową kartę",
+              "subtitle": "🔹 Nie czekaj na dostawę – dodaj do Google Pay / Apple Pay.",
+              "image_url": "https://example.com/virtual_card.jpg",
+              "buttons": [
+                {
+                  "type": "postback",
+                  "title": "ℹ️ Jak dodać kartę?",
+                  "payload": "HOW_TO_ADD_CARD"
+                }
+              ]
+            },
+            {
+              "title": "💰 Krok 5: Wykonaj 3 transakcje",
+              "subtitle": "✅ Zrób 3 płatności kartą Curve (min. 5€ każda).",
+              "image_url": "https://example.com/transactions.jpg"
+            },
+            {
+              "title": "🎉 Krok 6: Odbierz bonus",
+              "subtitle": "💵 Po spełnieniu warunków bonus pojawi się w ciągu 40 dni.",
+              "image_url": "https://example.com/bonus_received.jpg",
+              "buttons": [
+                {
+                  "type": "postback",
+                  "title": "ℹ️ Jak odebrać bonus?",
+                  "payload": "HOW_TO_GET_BONUS"
+                }
+              ]
+            },
+            {
+              "title": "💵 Extra 20€ dla Ciebie!",
+              "subtitle": "🤑 Po otrzymaniu bonusu zgłoś się do nas, a otrzymasz dodatkowe 20€!",
+              "image_url": "https://example.com/extra_bonus.jpg",
+              "buttons": [
+                {
+                  "type": "postback",
+                  "title": "🎯 Jak się zgłosić?",
+                  "payload": "HOW_TO_CLAIM_EXTRA"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  
